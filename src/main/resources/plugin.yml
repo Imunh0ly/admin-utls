@@ -1,0 +1,36 @@
+name: Admin-utls
+version: '1.0-pre-alpha'
+main: me.Unholyqueen.aDMIN.Admin
+api-version: '1.21'
+authors: [imunh0ly]
+description: Admin tools like fly, god, and vanish.
+commands:
+  god:
+    description: Toggle god mode.
+    usage: /<command>
+    permission: op
+  fly:
+    description: Toggle fly mode.
+    usage: /<command>
+    aliases: f
+    permission: op
+  vanish:
+    description: Toggle vanish mode.
+    usage: /<command>
+    aliases: v
+    permission: op
+  feed:
+    description: feed yourself.
+    usage: /<command>
+    permission: op
+  heal:
+    description: heal yourself.
+    usage: /<command>
+    permission: op
+  gamemode:
+    description: Change your gamemode.
+    usage: /<command> <gamemode>
+    aliases: gm
+    permission: op
+
+
