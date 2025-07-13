@@ -1,4 +1,4 @@
-# what it does
+# What it does
 
 * This plugin implements basic commands for op and will be expanded over time to include more features 
 # Commands 
