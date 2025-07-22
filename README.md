@@ -4,28 +4,28 @@
 # Commands 
 * god:
    * description: Toggle god mode.
-   * usage: /god
+   * usage: `/god`
    * permission: op
 * fly:
    * description: Toggle fly mode.
-   * usage: /fly or /f
+   * usage: `/fly` or `/f`
    * permission: op
 *  tp:
    * description: Teleport to custom coordinates.
-   * usage: /tp x y z or username
+   * usage: `/tp` `<x>> <y>> <z>` or `<username>`
 * vanish:
    * description: Toggle vanish mode.
-   * usage: /vanish or /v
+   * usage: `/vanish` or `/v`
    * permission: op
  * feed:
    * description: feed yourself.
-   * usage: /feed
+   * usage: `/feed`
    * permission: op
  * heal:
     * description: heal yourself.
-   * usage: /heal
+   * usage: `/heal`
    * permission: op
  * gamemode:
    *  description: Change your gamemode.
-   *  usage: /gm <gamemode>
+   *  usage: `/gm` `<gamemode>`
    *  permission: op
