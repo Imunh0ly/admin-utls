@@ -1,7 +1,7 @@
 me\Unholyqueen\aDMIN\Commands\FlyCommand.class
-me\Unholyqueen\aDMIN\Commands\SleepCommand.class
 me\Unholyqueen\aDMIN\Commands\HealCommand.class
 me\Unholyqueen\aDMIN\Commands\FeedCommand.class
+me\Unholyqueen\aDMIN\Commands\TpCommand.class
 me\Unholyqueen\aDMIN\Commands\GodCommand.class
 me\Unholyqueen\aDMIN\Commands\GamemodeCommand.class
 me\Unholyqueen\aDMIN\Commands\VanishCommand.class

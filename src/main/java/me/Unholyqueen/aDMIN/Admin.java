@@ -13,6 +13,7 @@ public final class Admin extends JavaPlugin {
         getCommand("fly").setExecutor(new FlyCommand());
         getCommand("feed").setExecutor(new FeedCommand());
         getCommand("heal").setExecutor(new HealCommand());
+        getCommand("tp").setExecutor(new TpCommand());
         getCommand("Gamemode").setExecutor(new GamemodeCommand());
         getCommand("gamemode").setTabCompleter(new GamemodeCommand());
 

@@ -1,5 +1,5 @@
 name: Admin-utls
-version: '1.0-pre-alpha'
+version: '1.1-pre-alpha'
 main: me.Unholyqueen.aDMIN.Admin
 api-version: '1.21'
 authors: [imunh0ly]
@@ -8,33 +8,35 @@ commands:
   god:
     description: Toggle god mode.
     usage: /<command>
-    permission: op
+    default: off
+    
   fly:
     description: Toggle fly mode.
     usage: /<command>
     aliases: f
-    permission: op
+    default: off
+
   vanish:
     description: Toggle vanish mode.
     usage: /<command>
     aliases: v
-    permission: op
+    default: off
+
   feed:
     description: feed yourself.
     usage: /<command>
-    permission: op
+
   heal:
     description: heal yourself.
     usage: /<command>
-    permission: op
-  sleep:
-    description: Sleep to skip the night.
-    usage: /<command>
-    permission: op
+
+  tp:
+    description: Teleport to custom coordinates.
+    usage: /<command> <x> <y> <z>
+
   gamemode:
     description: Change your gamemode.
     usage: /<command> <gamemode>
     aliases: gm
-    permission: op
 
 
