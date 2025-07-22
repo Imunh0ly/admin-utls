@@ -4,13 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>me.Unholyqueen</groupId>
-    <artifactId>ADMIN</artifactId>
-    <version>1.0-pre-alpha</version>
+   <groupId>me.Unholyqueen</groupId>
+    <artifactId>Admin-utls</artifactId>
+    <version>1.1-pre-alpha</version>
     <packaging>jar</packaging>
-
-    <name>ADMIN</name>
-
+    <name>Admin-utls</name>
     <properties>
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
