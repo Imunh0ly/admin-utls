@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-   <groupId>me.Unholyqueen</groupId>
+    <groupId>me.Unholyqueen</groupId>
     <artifactId>Admin-utls</artifactId>
     <version>1.1-pre-alpha</version>
     <packaging>jar</packaging>
@@ -13,7 +13,6 @@
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <build>
         <defaultGoal>clean package</defaultGoal>
         <plugins>
@@ -39,6 +38,14 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.3.1</version>
+                <configuration>
+                    <outputDirectory>C:\Users\Holy\Desktop\paper server\plugins</outputDirectory>
+                </configuration>
+            </plugin>
         </plugins>
         <resources>
             <resource>
@@ -47,7 +54,6 @@
             </resource>
         </resources>
     </build>
-
     <repositories>
         <repository>
             <id>spigotmc-repo</id>
@@ -58,7 +64,6 @@
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
     </repositories>
-
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
