@@ -9,34 +9,41 @@ commands:
     description: Toggle god mode.
     usage: /<command>
     default: off
+    permission: op
     
   fly:
     description: Toggle fly mode.
     usage: /<command>
     aliases: f
     default: off
+    permission: op
 
   vanish:
     description: Toggle vanish mode.
     usage: /<command>
     aliases: v
     default: off
+    permission: op
 
   feed:
     description: feed yourself.
     usage: /<command>
+    permission: op
 
   heal:
     description: heal yourself.
     usage: /<command>
+    permission: op
 
   tp:
     description: Teleport to custom coordinates.
     usage: /<command> <x> <y> <z>
+    permission: op
 
   gamemode:
     description: Change your gamemode.
     usage: /<command> <gamemode>
     aliases: gm
+    permission: op
 
 
