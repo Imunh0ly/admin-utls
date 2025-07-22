@@ -10,6 +10,9 @@
    * description: Toggle fly mode.
    * usage: /fly or /f
    * permission: op
+*  tp:
+   * description: Teleport to custom coordinates.
+   * usage: /tp x y z or username
 * vanish:
    * description: Toggle vanish mode.
    * usage: /vanish or /v
